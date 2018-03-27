@@ -11,3 +11,4 @@ Content/KiteDemo/Environments/* filter=lfs diff=lfs merge=lfs -text
 Content/KiteDemo/Environments/Cliffs/Cliff01/*.uasset filter=lfs diff=lfs merge=lfs -text
 Content/KiteDemo/Environments/foliage/* filter=lfs diff=lfs merge=lfs -text
 Content/KiteDemo/Environments/foliage/*/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/KiteDemo/Environments/** filter=lfs diff=lfs merge=lfs -text

@@ -2,9 +2,13 @@
 
 #pragma once
 
+#include <string>
+#include <stdlib.h>
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "uFindObj.generated.h"
+
+
 
 UCLASS()
 class UFIND3D_API AuFindObj : public AActor
@@ -14,6 +18,8 @@ class UFIND3D_API AuFindObj : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AuFindObj();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString clue;
 
 protected:
 	// Called when the game starts or when spawned
